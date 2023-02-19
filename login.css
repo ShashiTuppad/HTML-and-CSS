@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    background-image: -moz-element();
+}
+body{
+    width: 100%;
+    background-color: #f0f2f5;
+}
+form{
+    background-color: #fff;
+    position: absolute;
+    width: 320px;
+    height: 345px;
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 40%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px -7px;
+    position: fixed;
+
+}
+input[type='text'],input[type='password']
+{
+display: block;
+background-color: #fff;
+margin: auto;
+border: 1.5px solid rgba(200,200,200);
+width: 200px;
+padding: 10px 40px;
+border-radius: 5px;
+text-align: center;
+color: black;
+font-family: 'Segoe UI';
+font-size: 15px;
+
+}
+.submit{
+    border: none;
+    background-color:rgb(203, 55, 55);
+    color: white;
+    margin: auto;
+    width: 283px;
+    /* display: block; */
+    /* border-radius: 5px; */
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+    border-bottom: 1px solid gray;
+
+}
+.f-pws{
+    display: block;
+    width: 200px;
+    margin: auto;
+    padding-left: 80px;
+    font-weight: 400;
+}
+.line{
+    border-top: 1px solid #222;
+    opacity: 0.2;
+}
+.bnt-2{
+    border: none;
+    background-color:#ffffff;
+    color: white;
+    margin: auto;
+    width: 200px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+}
+.div1{
+    background-color: rgb(203, 55, 55);
+    width: 145px;
+    height:324px;
+    padding: 20px;
+    margin-left: 427px;
+    margin-top: 155px;
+    position: absolute;
+}
